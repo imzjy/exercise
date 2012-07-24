@@ -17,7 +17,7 @@ int main()
 	{
 		//child
 		//execvp("ls",arglist);
-		printf("child %d do something, and sleep for 2 seconds\n", getpid());
+		printf(">>child %d do something, and sleep for 2 seconds\n", getpid());
 		sleep(2);
 		exit(17);
 	}
